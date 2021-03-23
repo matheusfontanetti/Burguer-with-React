@@ -11,7 +11,8 @@ class Checkout extends Component {
             meat: 1,
             cheese: 1,
             bacon: 1
-        }
+        },
+        price: 0
     }
 
     componentWillMount () {
