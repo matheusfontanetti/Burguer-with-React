@@ -29,12 +29,12 @@ export const fecthUngredientsFailed = () => {
 };
 
 export const initIngredients = () => {
-    return dispatch => {
+   // return dispatch => {
   //   axios.get('https://react-my-burguer.firebaseio.com/ingredients')
       //  .then(response => {
       //      dispatch(setIngredients(response.data))
       //  }).catch(error => {
      //       dispatch(fetchIngredientsFailed());
       //  });
-    };
+   // };
 };
